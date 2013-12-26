@@ -74,7 +74,7 @@ public class MainActivity extends Activity {
 	    
         Runnable runnable = new Runnable() {
 	    	public void run() {
-		    	File imgFile = new  File("/sdcard/My Files/weather.png");
+		    	File imgFile = new  File("/sdcard/My Files/sync/weather.png");
 				if(imgFile.exists()){
 				
 				    Bitmap myBitmap = BitmapFactory.decodeFile(imgFile.getAbsolutePath());
@@ -84,7 +84,7 @@ public class MainActivity extends Activity {
 				
 				}
 				  
-				File imgFile2 = new  File("/sdcard/My Files/train.png");
+				File imgFile2 = new  File("/sdcard/My Files/sync/train.png");
 				if(imgFile2.exists()){
 					Bitmap myBitmap = BitmapFactory.decodeFile(imgFile2.getAbsolutePath());
 				

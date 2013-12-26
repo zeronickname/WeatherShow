@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+
+
+    
+    <ImageView
+        android:id="@+id/oneImgView" android:src="@drawable/error"
+        android:scaleType="fitCenter"
+        android:layout_width="fill_parent"  android:layout_height="fill_parent"/>
+    <ImageView
+        android:id="@+id/twoImgView" android:src="@drawable/error"
+        android:scaleType="fitCenter"
+        android:layout_width="fill_parent"  android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+    
+</RelativeLayout>
